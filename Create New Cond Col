@@ -1,0 +1,2 @@
+=IF(E2="Same Day",0.2,IF(E2="First Class",0.1,IF(E2="Standard Class",0.05,0)))
+=(S2-V2)*(1+W2)
